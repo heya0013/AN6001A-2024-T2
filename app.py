@@ -26,7 +26,7 @@ def SA():
 def SA_result():
     q=request.form.get("q")
     r= r=textblob.TextBlob(q).sentiment
-    return(render_template("main.html",r=r))
+    return(render_template("SA_result.html",r=r))
 
 if __name__ == "__main__":
     app.run()
