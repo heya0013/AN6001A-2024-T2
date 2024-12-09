@@ -32,6 +32,8 @@ h2 {
     margin-bottom: 20px;
     color: #333;
 }
+
+
 form {
     margin: 15px 0;
 }
@@ -68,6 +70,8 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+
 
 p {
     margin-top: 20px;
